@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Vladimir Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="pictureTricks.html">Photo Gallery</a>
+</nav>
+<h1>My Photo Gallery</h1>
+<div class="content">
+    <div class="photoGallery">
+        <img src="images/vladi.jpeg" alt="Vladimir">
+        <img src="images/vladi2.jpeg" alt="Vladimir">
+        <img src="images/vladi3.jpeg" alt="Vladimir">
+        <img src="images/vladi4.jpeg" alt="Vladimir">
+        <img src="images/vladi5.jpeg" alt="Vladimir">
+        <img src="images/vladi6.jpeg" alt="Vladimir">
+        <img src="images/vladi7.jpeg" alt="Vladimir">
+        <img src="images/vladi8.jpeg" alt="Vladimir">
+        <img src="images/vladi9.jpeg" alt="Vladimir">
+        <img src="images/vladi10.jpeg" alt="Vladimir">
+        <img src="images/vladi11.jpeg" alt="Vladimir">
+    </div>
+    <div onclick="side_slide(-1)" class="slide left">
+        <span class="fas fa-arrow-left"></span>
+    </div>
+    <div onclick="side_slide(1)" class="slide right">
+        <span class="fas fa-arrow-right"></span>
+    </div>
+    <button type="button">Watch me spin!</button>
+    <button type="button">Watch me roll!</button>
+</div>
+<script src="main.js"></script>
+
+</body>
+</html>
