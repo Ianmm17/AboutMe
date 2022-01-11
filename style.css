@@ -40,7 +40,9 @@ li {color: white;
 .content .photoGallery {
     height: 550px;
     width: 550px;
-    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .photoGallery img{
     height: 100%;
