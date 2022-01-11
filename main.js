@@ -21,8 +21,6 @@ function showImg(e) {
 }
 
 function playAudio(VladiHowl) {
-    //const audio = document.getElementById("VladiHowl");
-    //audio.play()
     new Audio(VladiHowl).play()
 }
 
